@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include partial/template/head.ejs %>
+</head>
+<body>
+<% include partial/template/header.ejs %>
+
+
+<section class="layout">
+    <div class="primary">
+        <%include partial/content/speakerslist.ejs%>
+    </div>
+    <aside class="secondary">
+        <div>
+            <%include partial/content/nextmeeting.ejs%>
+            <%include partial/content/artworklist.ejs%>
+        </div>
+    </aside>
+
+</section>
+
+<% include partial/template/footer.ejs %>
+<% include partial/template/jsdefaults.ejs %>
+
+</body>
+</html>
